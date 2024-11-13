@@ -1,0 +1,6 @@
+.header_el {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem;
+    height: 5vh;
+}
