@@ -26,10 +26,10 @@ export default function (props) {
                             {props.tags}
                         </p>
                         <AppButton />
+                        <p><AppTags /></p>
                     </div>
 
                 </div>
-                <p><AppTags /></p>
             </main>
 
         </>

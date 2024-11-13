@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Titolo del Post 1",
-        image: 'https://picsum.photos/200/300',
+        image: 'https://picsum.photos/600/300',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html", "css"],
@@ -11,7 +11,7 @@ export default [
     {
         id: 2,
         title: "Titolo del Post 2",
-        image: 'https://picsum.photos/200/300',
+        image: 'https://picsum.photos/600/300',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "css"],
@@ -20,7 +20,7 @@ export default [
     {
         id: 3,
         title: "Titolo del Post 3",
-        image: 'https://picsum.photos/200/300',
+        image: 'https://picsum.photos/600/300',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["js", "php"],
@@ -29,7 +29,7 @@ export default [
     {
         id: 4,
         title: "Titolo del Post 4",
-        image: 'https://picsum.photos/200/300',
+        image: 'https://picsum.photos/600/300',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
         tags: ["html"],
