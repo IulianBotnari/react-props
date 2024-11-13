@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <AppHeader />
-      {Posts.map(Posts => <AppMain key={Posts.id} image={Posts.image} title={Posts.title} content={Posts.content} tags={Posts.tags.join(", ")} />)}
+      {Posts.map(Posts => Posts.published && <AppMain key={Posts.id} image={Posts.image} title={Posts.title} content={Posts.content} tags={Posts.tags.join(", ")} />)}
       <AppFooter />
     </>
   )
