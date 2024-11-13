@@ -2,6 +2,7 @@
 import MainStyle from "./AppMain.module.css"
 import CardStyle from "./AppCard.module.css"
 import AppButton from "../AppButton/AppButton"
+import AppTags from "../AppTags/AppTags"
 
 
 export default function (props) {
@@ -24,11 +25,11 @@ export default function (props) {
                         <p>
                             {props.tags}
                         </p>
-
                         <AppButton />
                     </div>
 
                 </div>
+                <p><AppTags /></p>
             </main>
 
         </>
