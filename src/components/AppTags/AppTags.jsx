@@ -19,7 +19,11 @@ export default function AppTags() {
 
     return (
         <>
-            <p>{newArray.join(", ")}</p>
+            <div>
+
+                {newArray}
+
+            </div>
         </>
     )
 }

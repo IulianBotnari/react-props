@@ -4,3 +4,20 @@
     box-shadow: 2px 3px 14px 0px;
     width: 30%;
 }
+
+
+.html {
+    color: red
+}
+
+.js {
+    color: blue;
+}
+
+.css {
+    color: green;
+}
+
+.php {
+    color: yellow;
+}

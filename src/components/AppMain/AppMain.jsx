@@ -3,11 +3,24 @@ import MainStyle from "./AppMain.module.css"
 import CardStyle from "./AppCard.module.css"
 import AppButton from "../AppButton/AppButton"
 import AppTags from "../AppTags/AppTags"
+import Posts from "../../data/Posts"
 
 
 export default function (props) {
     //logic here
+    let newArray = []
 
+    Posts.forEach(element => {
+        const tagsEL = element.tags
+
+        tagsEL.forEach(element => {
+
+            if (!newArray.includes(element)) {
+                newArray.push(element)
+
+            }
+        })
+    })
 
     //markup here
 
@@ -26,7 +39,7 @@ export default function (props) {
                             {props.tags}
                         </p>
                         <AppButton />
-                        <p><AppTags /></p>
+                        <AppTags />
                     </div>
 
                 </div>
