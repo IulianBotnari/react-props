@@ -1,4 +1,4 @@
-
+import { useState } from "react"
 import MainStyle from "./AppMain.module.css"
 import CardStyle from "./AppCard.module.css"
 import AppButton from "../AppButton/AppButton"
@@ -8,6 +8,8 @@ import Posts from "../../data/Posts"
 
 export default function (props) {
     //logic here
+    const [post, setPost] = useState(Posts)
+
     let newArray = []
 
     Posts.forEach(element => {
@@ -27,7 +29,10 @@ export default function (props) {
     return (
 
         <>
+
             <main className={MainStyle.main_el}>
+
+
                 <div className={CardStyle.card_el}>
                     <img src={props.image} alt="Immagine" />
                     <div className="description">
